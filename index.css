@@ -70,3 +70,42 @@ a{
     text-decoration: none;
     color: black;
 }
+.big-intro{
+    height: 500px;
+    width: auto;
+}
+.functions{
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    margin-bottom: 20%;
+}
+.func{
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+}
+.icon{
+    width: 90px;
+    height: 90px;
+}
+
+.func:hover{
+    width: 270px;
+    height: 270px;
+    letter-spacing: 1.3px;
+    transition: 0.3s;
+
+}
+.func:not(:hover){
+    transition: 0.3s;
+}
+

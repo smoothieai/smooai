@@ -100,14 +100,12 @@ input[type="text"], input[type="email"], textarea {
     font-weight: 400;
     font-style: normal;
 }
-.form{
+form{
     margin-left: 10%;
     display: grid;
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-}
-form{
     margin-left: -7%;
     width: 500px;
     background: rgba(255, 255, 255, 0.22);

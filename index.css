@@ -77,9 +77,9 @@ body{
 }
 
 .func-head{
-    font-family: "Acme", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
 }
 
 
@@ -122,22 +122,23 @@ body{
 .footer-text{
     text-align: left;
     color: black;
-    font-family: "Arimo", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 800;
     font-style: normal;
     width: 50%;
     margin-top: 80px;
 }
 
 .blend{
-    font-family: "Noto Serif Display", serif;
+    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 800;
     font-style: normal;
     color: white;
     font-variation-settings: "wdth" 100;
     font-size: 80px;
+    z-index: 1;
 }
 .big-intro{
     height: 700px;
@@ -145,12 +146,13 @@ body{
 }
 
 .try{
-    border: solid 1px white;
+    border: solid 2px white;
     width: 200px;
     height: 75px;
     border-radius: 35px;
     text-align: center;
     display: grid;
+    font-size: 25px;
     align-items: center;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -165,6 +167,13 @@ body{
 }
 
 .smooth{
-    margin-top: -120px;
-    z-index: -1;
+    margin-top: -9%;
+    margin-left: 23%;
+    height: 700px;
+    z-index: -10;
+    transform: rotate(45deg);
+}
+.intro-text{
+    display: grid;
+    align-items: center;
 }

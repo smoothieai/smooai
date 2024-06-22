@@ -1,5 +1,5 @@
 body{
-    background: #DB5461;
+    background: #E85565;
 
     background-size: cover;
     height: auto;
@@ -28,7 +28,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-right: 5%;
-    color: white;
+    color: #FFF5E4;
 }
 
 .functions{
@@ -58,7 +58,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    color: white;
+    color: #FFF5E4;
 }
 .icon{
     width: 90px;
@@ -91,9 +91,7 @@ body{
     border-radius: 25px;
 }
 .about{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
 }
 .about-text{
     text-align: left;
@@ -135,7 +133,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    color: white;
+    color: #FFF5E4;
     font-variation-settings: "wdth" 100;
     font-size: 80px;
     z-index: 1;
@@ -146,7 +144,7 @@ body{
 }
 
 .try{
-    border: solid 2px white;
+    border: solid 2px #FFF5E4;
     width: 200px;
     height: 75px;
     border-radius: 35px;
@@ -158,11 +156,11 @@ body{
     font-optical-sizing: auto;
     font-weight: 800;
     transition: 0.3s;
+    box-sizing: border-box;
 }
 .try:hover{
-    width: 210px;
-    height: 80px;
-    color: aliceblue;
+    color: #FFF5E4;
+    border: solid 4px #FFF5E4;
     letter-spacing: 2px;
 }
 
@@ -287,4 +285,22 @@ body{
     top:650px;
     left: 90%;
     transform: rotate(5deg);
+}
+
+a{
+    text-decoration: none;
+    color: #FFF5E4;
+}
+.about{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    color: #FFF5E4;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    padding-top: 0;
+    line-height: 35px;
 }

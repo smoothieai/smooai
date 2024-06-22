@@ -185,8 +185,8 @@ body{
 #a1{
     width: 150px;
     height: 150px;
-    top:500px;
-    left: 10%;
+    top:650px;
+    left: 15%;
     transform: rotate(45deg);
 }
 #a2{
@@ -197,10 +197,10 @@ body{
     transform: rotate(5deg);
 }
 #a3{
-    width: 100px;
-    height:100px;
+    width: 150px;
+    height:150px;
     top:300px;
-    left: 10%;
+    left: 5%;
     transform: rotate(90deg);
 }
 #a4{
@@ -220,7 +220,7 @@ body{
 #a6{
     width: 100px;
     height: 100px;
-    top:100px;
+    top:170px;
     left: 20%;
     transform: rotate(20deg);
 }
@@ -237,4 +237,54 @@ body{
     top:400px;
     left: 75%;
     transform: rotate(45deg);
+}
+#a9{
+    width: 200px;
+    height:200px;
+    top:600px;
+    left: 60%;
+    transform: rotate(80deg);
+}
+#a10{
+    width: 200px;
+    height: 200px;
+    top:500px;
+    left: 5%;
+    transform: rotate(45deg);
+}
+#a11{
+    width: 200px;
+    height: 200px;
+    top:14%;
+    left: 3%;
+    transform: rotate(45deg);
+    
+}
+#a12{
+    width: 200px;
+    height:200px;
+    top:500px;
+    left: 75%;
+    transform: rotate(90deg);
+}
+#a13{
+    width: 200px;
+    height:200px;
+    top:300px;
+    left: 60%;
+    transform: rotate(40deg);
+}
+#a14{
+    width: 200px;
+    height:200px;
+    top:100px;
+    left: 70%;
+    transform: rotate(30deg);
+}
+#a15{
+    width: 100px;
+    height: 100px;
+    top:650px;
+    left: 90%;
+    transform: rotate(5deg);
 }

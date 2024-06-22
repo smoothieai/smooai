@@ -26,7 +26,7 @@ body{
     }
 }
 .header{
-    font-family: "Krona One", sans-serif;
+    font-family: "Acme", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin-left: 5%;
@@ -38,6 +38,7 @@ body{
 .sign-in{
     width: 100px;
     height: 50px;
+    font-size: 25px;
     background-color: white;
     text-align: center;
     display: grid;
@@ -47,6 +48,7 @@ body{
 .sign-up{
     width: 100px;
     height: 50px;
+    font-size: 25px;
     background-color: transparant;
     text-align: center;
     display: grid;
@@ -55,7 +57,7 @@ body{
 }
 .log-cont{
     display: flex;
-    width: 250px;
+    width: 220px;
     justify-content: space-between;
 }
 .log-cont :hover{
@@ -75,23 +77,34 @@ a{
     width: auto;
 }
 .functions{
+    height: 500px;
     display: flex;
     width: auto;
     justify-content: space-around;
     margin-bottom: 20%;
+    background-image: url(fruits.png);
+    background-attachment: fixed;
+    background-repeat: no-repeatxw;
+    background-size: cover;
+    align-items: center;
 }
 .func{
     background: rgba(255, 255, 255, 0.22);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     width: 250px;
     height: 250px;
     text-align: center;
     padding: 20px;
     align-items: center;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
 }
 .icon{
     width: 90px;
@@ -110,7 +123,7 @@ a{
 }
 
 .func-head{
-    font-family: "Krona One", sans-serif;
+    font-family: "Acme", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
